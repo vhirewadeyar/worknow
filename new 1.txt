@@ -1,0 +1,10 @@
+Patching:
+
+In Banking Sector (Monthly once)
+Rest other sector (Monthly once or 2 to 3 months once)
+
+apache v4 (bug)
+apache v4.1
+
+Preproduction Environment
+Production Environment

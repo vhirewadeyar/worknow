@@ -1,0 +1,200 @@
+
+
+ISCSI
+1) It uses TCP/IP based protocol
+2) It is used to share the block storage devices over the IP Network
+3) Client gets the N/W storage devices as a local raw disk
+
+ISCSI servers may host multiple servers (ISCSI --> shaeres storage to multiple servers)
+
+Terminologies
+Target: It is an ISCSI storage resource configured for connections from an ISCSI servers
+Initiator: The client of ISCIS is called as Initiator
+IQN: ISCSI Qualified Name 
+
+Each and every target and Initiator will have IQN(nodes)
+
+IQN (nodes)
+iqn.rrrr-mm.com.reversed.domain[:optional_string]
+
+LUN: Logical Unit Number
+A Logical Unit Number is a numbered block devices attached to an available through a target.
+Only one client can avail the LUN from a Target.
+
+
+=================================================================================
+								ISCSI SERVER CONFIGURATION
+=================================================================================
+
+Install targetcli package in the Target server
+yum install targetcli
+
+Enable & Start the service
+systemctl enable target.service
+systemctl start target.service
+systemctl status target.service
+
+Add the ISCSI port number (3260) in the Firewall permanently
+firewall-cmd --permanent --add-port=3260/tcp
+firewall-cmd --reload
+firewall-cmd --list-all
+
+
+Allocate space to a file as shown below
+fallocate -l 1G /opt/redhat
+
+Proceed with disk partition using fdisk
+fdisk -l
+fdisk /dev/sdb
+partprobe /dev/sdb
+
+Create LVM
+pvcreate /dev/sdb1
+vgcreate vg1 /dev/sdb1
+lvcreate -n isci_lv -L 500M vg1
+
+Enter into Targetcli Shell to configure the blocks, iqn, LUN and ports as shown below:
+
+targetcli
+
+
+
+/backstores/block> ls
+o- block ..................................................................... [Storage Objects: 0]
+/backstores/block> cd ..
+/backstores> cd ..
+/> ls
+o- / ........................................................................................ [...]
+  o- backstores ............................................................................. [...]
+  | o- block ................................................................. [Storage Objects: 0]
+  | o- fileio ................................................................ [Storage Objects: 0]
+  | o- pscsi ................................................................. [Storage Objects: 0]
+  | o- ramdisk ............................................................... [Storage Objects: 0]
+  o- iscsi ........................................................................... [Targets: 0]
+  o- loopback ........................................................................ [Targets: 0]
+/> cd backstores/block
+/backstores/block> create name=myblock  dev=/dev/vg1/newlvm
+Created block storage object myblock using /dev/vg1/newlvm.
+
+
+
+
+
+o- / ........................................................................ [...]
+  o- backstores ............................................................. [...]
+  | o- block ................................................. [Storage Objects: 1]
+  | | o- myblock ............... [/dev/vg1/isci_lv (500.0MiB) write-thru activated]
+  | |   o- alua .................................................. [ALUA Groups: 1]
+  | |     o- default_tg_pt_gp ...................... [ALUA state: Active/optimized]
+  | o- fileio ................................................ [Storage Objects: 1]
+  | | o- myfile ....................... [/opt/redhat (1.0GiB) write-back activated]
+  | |   o- alua .................................................. [ALUA Groups: 1]
+  | |     o- default_tg_pt_gp ...................... [ALUA state: Active/optimized]
+  | o- pscsi ................................................. [Storage Objects: 0]
+  | o- ramdisk ............................................... [Storage Objects: 0]
+  o- iscsi ........................................................... [Targets: 1]
+  | o- iqn.2018-01.com.example:target1 .................................. [TPGs: 1]
+  |   o- tpg1 .............................................. [no-gen-acls, no-auth]
+  |     o- acls ......................................................... [ACLs: 2]
+  |     | o- iqn.2020-05.com.example.com:client1 ................. [Mapped LUNs: 2]
+  |     | | o- mapped_lun0 .............................. [lun0 block/myblock (rw)]
+  |     | | o- mapped_lun1 .............................. [lun1 fileio/myfile (rw)]
+  |     | o- iqn.2020-05.com.example.com:client2 ................. [Mapped LUNs: 2]
+  |     |   o- mapped_lun0 .............................. [lun0 block/myblock (rw)]
+  |     |   o- mapped_lun1 .............................. [lun1 fileio/myfile (rw)]
+  |     o- luns ......................................................... [LUNs: 2]
+  |     | o- lun0 ........... [block/myblock (/dev/vg1/isci_lv) (default_tg_pt_gp)]
+  |     | o- lun1 ................ [fileio/myfile (/opt/redhat) (default_tg_pt_gp)]
+  |     o- portals ................................................... [Portals: 1]
+  |       o- 10.128.0.13:3260 ................................................ [OK]
+  o- loopback ........................................................ [Targets: 0]
+/> refresh
+/> saveconfig
+Configuration saved to /etc/target/saveconfig.json
+/> exit
+Global pref auto_save_on_exit=true
+Last 10 configs saved in /etc/target/backup/.
+Configuration saved to /etc/target/saveconfig.json
+
+
+=================================================================================
+								CLIENT CONFIGURATION
+=================================================================================
+
+
+yum install iscsi-initiator-utils -y
+vi /etc/iscsi/initiatorname.iscsi
+InitiatorName=iqn.2020-05.com.example.com:client1
+
+systemctl status iscsid.service
+systemctl enable iscsid.service
+systemctl start iscsid.service
+man iscsiadm
+iscsiadm discoverytab --type sendtargets --portal 10.128.0.19 --discover
+
+[root@ansibletower /]# lsblk
+NAME           MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda              8:0    0   20G  0 disk
+├─sda1           8:1    0  200M  0 part /boot/efi
+└─sda2           8:2    0 19.8G  0 part /
+sdb              8:16   0   10G  0 disk
+└─sdb1           8:17   0    2G  0 part
+  └─vg1-newlvm 253:0    0    1G  0 lvm
+
+
+iscsiadm --mode node --targetname iqn.2018-01.com.example:target1 --portal 10.128.0.19:3260 --login
+
+[root@ansibletower /]# lsblk
+NAME           MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda              8:0    0   20G  0 disk
+├─sda1           8:1    0  200M  0 part /boot/efi
+└─sda2           8:2    0 19.8G  0 part /
+sdb              8:16   0   10G  0 disk
+└─sdb1           8:17   0    2G  0 part
+  └─vg1-newlvm 253:0    0    1G  0 lvm
+sdc              8:32   0  500M  0 disk
+└─sdc1           8:33   0  499M  0 part
+sdd              8:48   0    1G  0 disk
+
+[root@ansibletower /]# cat /etc/fstab
+/dev/sdc1 /mnt/iscsi xfs defaults,-netdev 0 0
+
+******(-netdev)
+The filesystem resides on a device that requires network access 
+(used to prevent the system from attempting to mount these filesystems until the network has been enabled on the system)
+
+[root@ansibletower /]# iscsiadm --mode node --targetname iqn.2018-01.com.example:target1 --portal 10.128.0.19:3260 --logout
+Logging out of session [sid: 4, target: iqn.2018-01.com.example:target1, portal: 10.128.0.19,3260]
+Logout of [sid: 4, target: iqn.2018-01.com.example:target1, portal: 10.128.0.19,3260] successful.
+
+[root@ansibletower /]# lsblk
+NAME           MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda              8:0    0   20G  0 disk
+├─sda1           8:1    0  200M  0 part /boot/efi
+└─sda2           8:2    0 19.8G  0 part /
+sdb              8:16   0   10G  0 disk
+└─sdb1           8:17   0    2G  0 part
+  └─vg1-newlvm 253:0    0    1G  0 lvm
+[root@ansibletower /]#
+
+
+
+
+=================================================================
+File system error check:
+=================================================================
+
+[root@ansibletower /]# e2fsck  /dev/sdc1 -y
+e2fsck 1.42.9 (28-Dec-2013)
+/dev/sdc1: clean, 11/128016 files, 26684/510976 blocks
+
+
+[root@ansibletower /]# e2fsck -f  /dev/sdc1 -y
+e2fsck 1.42.9 (28-Dec-2013)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+/dev/sdc1: 11/128016 files (0.0% non-contiguous), 26684/510976 blocks
+[root@ansibletower /]#
