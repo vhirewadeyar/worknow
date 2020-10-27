@@ -1,0 +1,509 @@
+[17:03.42.126]  Starting MobaXterm
+[17:03.42.126]  
+[17:03.42.126]  BEGIN AdaptToGlobalDPI
+[17:03.42.126]      AdaptToGlobalDPI: DPI=96
+[17:03.42.126]      BEGIN LaunchLoadFlatIconsThreads
+[17:03.42.126]          BEGIN WaitForLoadFlatIconsThreads
+[17:03.42.126]          END WaitForLoadFlatIconsThreads
+[17:03.42.126]          BEGIN WaitForGenerateStdListThreads
+[17:03.42.126]          END WaitForGenerateStdListThreads
+[17:03.42.126]          Loading flat icons 16
+[17:03.42.130]          Loading flat icons 22
+[17:03.42.130]          Loading flat icons 64
+[17:03.42.130]      END LaunchLoadFlatIconsThreads
+[17:03.42.130]  END AdaptToGlobalDPI
+[17:03.42.130]  
+[17:03.42.130]  BEGIN AddMobaConsoleFont
+[17:03.42.130]  END AddMobaConsoleFont
+[17:03.42.130]  
+[17:03.42.130]  BEGIN GetMobaseStream
+[17:03.42.131]  END GetMobaseStream
+[17:03.42.140]  - MobaXterm version: 20.2 Build 4296
+[17:03.42.140]  - Command line: "C:\Users\vhirewadeyar\Downloads\MobaXterm_Personal_20.2.exe"
+[17:03.42.140]  - Date: 2020-10-23
+[17:03.42.140]  - Win32 version: 6.1.2.7601.Service Pack 1
+[17:03.42.140]  - CPU architecture: x86
+[17:03.42.140]  - Windows architecture: 64-bits
+[17:03.42.140]  - Detected DPI: 96
+[17:03.42.140]  - Current DPI: 96
+[17:03.42.140]  - CurDir: C:\Users\VHIREW~1\DOWNLO~1\
+[17:03.42.140]  - PersonalDir: C:\Users\VHIREW~1\DOCUME~1\
+[17:03.42.140]  - AppDataDir: C:\Users\VHIREW~1\AppData\Roaming\
+[17:03.42.140]  - LocalAppDataDir: C:\Users\VHIREW~1\AppData\Local\
+[17:03.42.140]  - DesktopDir: C:\Users\VHIREW~1\Desktop\
+[17:03.42.140]  - MobaProfileDir: C:\Users\VHIREW~1\DOCUME~1\
+[17:03.42.140]  - Free space in MobaProfileDir folder: 26830MB
+[17:03.42.140]  - TempDir: C:\Users\VHIREW~1\AppData\Local\Temp\
+[17:03.42.140]  - Free space in TempDir folder: 26830MB
+[17:03.42.140]  - Monitor #0: 1024x768
+[17:03.42.140]  - Monitor #1: 1360x768
+[17:03.42.140]  - User name: vhirewadeyar
+[17:03.42.140]  - Computer name: VEERUNEW
+[17:03.42.141]  - Uptime: 2 days, 04:39:13
+[17:03.42.141]  - Windows PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin
+[17:03.42.141]  - WSL not found
+[17:03.42.141]  
+[17:03.42.141]  BEGIN Form1.FormCreate
+[17:03.42.141]      Detecting installed/portable version
+[17:03.42.141]      --> portable version
+[17:03.42.141]      
+[17:03.42.141]      Detecting IniSettings
+[17:03.42.142]      MobaXterm will take its configuration from file "C:\Users\VHIREW~1\DOWNLO~1\MobaXterm.ini".
+[17:03.42.144]      WARNING: SELECTED INI FILE SEEMS TO BE READ-ONLY!
+[17:03.42.144]      --> IniSettings= C:\Users\VHIREW~1\DOWNLO~1\MobaXterm.ini
+[17:03.42.144]      
+[17:03.42.144]      
+[17:03.42.144]      Detecting ModeIni
+[17:03.42.144]      --> ModeIni= true
+[17:03.42.144]      
+[17:03.42.144]      Detecting CygUtils
+[17:03.42.144]      CygUtils32 detected
+[17:03.42.144]      --> Using CygPackage C:\Users\VHIREW~1\DOWNLO~1\CygUtils.plugin
+[17:03.42.144]      
+[17:03.42.144]      Detecting MobaXVTDir
+[17:03.42.145]      BEGIN IsFolderRW(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202)
+[17:03.42.372]      END IsFolderRW(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202) --> OK
+[17:03.42.372]      --> MobaXVTDir= C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202
+[17:03.42.372]      
+[17:03.42.372]      Detecting BinExeDir
+[17:03.42.373]      --> BinExeDir= C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\
+[17:03.42.373]      
+[17:03.42.373]      Detecting MobaXVTHomeDir
+[17:03.42.373]      --> MobaXVTHomeDir= C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\tmp\home_vhirewadeyar
+[17:03.42.373]      
+[17:03.42.373]      Skin detection
+[17:03.42.373]      Skin selected:
+[17:03.42.373]      Set Application Title
+[17:03.42.433]      - Cygwin1.dll not detected in running applications.
+[17:03.42.433]      
+[17:03.42.433]      Process list:  SEDService.exe, hmpalert.exe, C:\Program Files (x86)\HitmanPro.Alert\hmpalert.exe, armsvc.exe, \Device\HarddiskVolume2\Windows\System32\igfxtray.exe, \Device\HarddiskVolume2\Windows\System32\hkcmd.exe, \Device\HarddiskVolume2\Windows\System32\igfxpers.exe, \Device\HarddiskVolume2\Windows\System32\rundll32.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files\Microsoft Office\Office14\ONENOTEM.EXE, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, devmonsrv.exe, mDNSResponder.exe, NVDisplay.Container.exe, PsiService_2.exe, SAVAdminService.exe, SophosNtpService.exe, SophosCleanM.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, SophosFS.exe, SophosFileScanner.exe, McsClient.exe, SophosFileScanner.exe, SophosSafestore64.exe, \Device\HarddiskVolume2\Windows\System32\cmd.exe, C:\Program Files (x86)\Internet Download Manager\IDMMsgHost.exe, SSPService.exe, swc_service.exe, SWGVCSvc.exe, swi_service.exe, obexsrv.exe, SearchIndexer.exe, mediasrv.exe, C:\Program Files (x86)\Intel\Bluetooth\BTPlayerCtrl.exe, \Device\HarddiskVolume2\Program Files\DAEMON Tools Lite\DTShellHlp.exe, wmpnetwk.exe, C:\Program Files (x86)\Notepad++\notepad++.exe, DiscSoftBusServiceLite.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Windows\System32\SnippingTool.exe, wisptis.exe, OSPPSVC.EXE, C:\Program Files (x86)\Internet Download Manager\IDMan.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, TeamViewer_Service.exe, audiodg.exe, C:\Program Files (x86)\VideoLAN\VLC\vlc.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files\Microsoft Office\Office14\WINWORD.EXE, \Device\HarddiskVolume2\Program Files\Microsoft Office\Office14\WINWORD.EXE, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Users\vhirewadeyar\AppData\Local\Microsoft\Teams\current\Teams.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, \Device\HarddiskVolume2\Program Files (x86)\Google\Chrome\Application\chrome.exe, C:\Users\vhirewadeyar\Downloads\MobaXterm_Personal_20.2.exe, C:\Users\vhirewadeyar\Downloads\MobaXterm_Personal_20.2.exe
+[17:03.42.433]      Some applications may prevent MobaXterm from running properly:
+    - TeamViewer: manipulates Windows handles in a way which may break MobaXterm graphical interface, X11 server or keyboard management (with some very specific settings/versions)
+
+If MobaXterm works properly, you can ignore this warning.
+However, if you encounter issues, this information may be useful in order to fix them.
+[17:03.42.433]      
+[17:03.42.517]      
+[17:03.42.517]      BEGIN LoadExtensionsImageList
+[17:03.42.600]      END LoadExtensionsImageList
+[17:03.42.600]      
+[17:03.42.600]      BEGIN WaitForLoadFlatIconsThreads
+[17:03.42.600]      END WaitForLoadFlatIconsThreads
+[17:03.42.600]      BEGIN ReadCustomIcons
+[17:03.42.600]          No custom icon found.
+[17:03.42.600]      END ReadCustomIcons
+[17:03.42.600]      BEGIN LaunchGenerateStdListThreads
+[17:03.42.600]          BEGIN WaitForLoadFlatIconsThreads
+[17:03.42.601]          END WaitForLoadFlatIconsThreads
+[17:03.42.601]          BEGIN WaitForGenerateStdListThreads
+[17:03.42.601]          END WaitForGenerateStdListThreads
+[17:03.42.601]          Generating icons list 16 (real size 16)
+[17:03.42.613]          Generating icons list 22 (real size 22)
+[17:03.42.613]          Generating icons list 64 (real size 64)
+[17:03.42.613]      END LaunchGenerateStdListThreads
+[17:03.42.613]      Loading skins
+[17:03.42.613]      
+[17:03.42.613]      Detected Default Windows theme setting
+[17:03.42.613]      Detected that MsWindows is in bright mode. Activating bright mode
+[17:03.42.613]      
+[17:03.42.614]  END Form1.Create
+[17:03.42.614]  
+[17:03.42.614]  
+[17:03.42.614]  CREATING Form4
+
+[17:03.43.169]  BEGIN Form4.Create
+[17:03.43.185]      NbPenguins = 4
+[17:03.43.185]      CoeffPenguins = 96
+[17:03.43.188]      BEGIN LoadBookmarksFromIni
+[17:03.43.188]          FindOrCreateTreeFolders() (1)
+[17:03.43.194]      END LoadBookmarksFromIni
+[17:03.43.194]      BEGIN LoadMacrosFromIni
+[17:03.43.194]      END LoadMacrosFromIni
+[17:03.43.201]      Form4Create1
+[17:03.43.202]      Form4Create2
+[17:03.43.247]      BEGIN AdaptSidebarArrows
+[17:03.43.248]      END AdaptSidebarArrows
+[17:03.43.294]      Form4Create3
+[17:03.43.295]      GetMinWidth = 971
+[17:03.43.295]      GetMinHeight = 697
+[17:03.43.311]      Form4Create4
+[17:03.43.312]      IsNTFS(C:\) --> NTFS
+[17:03.43.312]      Slash drive is NTFS.
+[17:03.43.312]      Form4Create5
+[17:03.43.326]      Form4Create6
+[17:03.43.326]      Displaysidebarontheleft1Click: FormClick
+[17:03.43.349]      BEGIN AdaptSidebarArrows
+[17:03.43.349]      END AdaptSidebarArrows
+[17:03.43.349]      Form4Create7
+[17:03.43.349]      Form4Create8
+[17:03.43.349]      Form4Create9
+[17:03.43.349]      ShowButtonsbar1Click: FormClick
+[17:03.43.350]      Form4Create10
+[17:03.43.350]      Form4Create12
+[17:03.43.350]      SmallButtons1Click: FormClick
+[17:03.43.358]      GetMinWidth = 971
+[17:03.43.358]      GetMinHeight = 693
+[17:03.43.359]      Form4Create13
+[17:03.43.359]      Form4Create14
+[17:03.43.359]  END Form4.Create
+[17:03.43.359]  
+[17:03.43.359]  
+[17:03.43.359]  CREATING FormParams
+[17:03.43.549]  BEGIN TFormParams.FormCreate
+[17:03.43.566]  END TFormParams.FormCreate
+[17:03.43.567]  
+[17:03.43.567]  
+[17:03.43.567]  CREATING FormSessionEdit
+[17:03.43.850]  BEGIN FormSessionEdit.Create
+[17:03.43.913]      BEGIN TFormSessionEdit.FindIP
+[17:03.43.925]      END TFormSessionEdit.FindIP
+[17:03.43.930]  END FormSessionEdit.Create
+[17:03.43.930]  
+[17:03.43.930]  
+[17:03.43.930]  CREATING FormTransparente
+[17:03.43.939]  
+[17:03.43.939]  
+[17:03.43.939]  CREATING FormTermConfirmClose
+[17:03.43.951]  
+[17:03.43.951]  
+[17:03.43.951]  CREATING FormManagePasswords
+[17:03.43.984]  BEGIN TFormManagePasswords.FormCreate
+[17:03.43.984]  END TFormManagePasswords.FormCreate
+[17:03.43.984]  
+[17:03.43.984]  
+[17:03.43.984]  DONE CREATING FORMS
+[17:03.43.984]  
+[17:03.43.984]  
+[17:03.43.984]  
+[17:03.43.984]  
+[17:03.43.985]  BEGIN Form1.Show
+[17:03.43.985]  END Form1.Show
+[17:03.44.061]  
+[17:03.44.061]  Launching Form1.Timer1Timer
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  ================================================================================
+[17:03.44.062]  ~    INI file content (C:\Users\VHIREW~1\DOWNLO~1\MobaXterm.ini)    ~
+[17:03.44.062]  ================================================================================
+[17:03.44.062]  
+[17:03.44.062]  
+[Misc]
+PasswordsInRegistry=0
+DefTextEditor=<MobaTextEditor>
+StorePasswords=Ask
+StoreSSHKeysPassphrases=0
+BackupIni=1
+LogTerminalActivity=0
+LogType=0
+DefaultShell=0
+LogFolder=
+SkinSat=36
+XAuto=1
+XKeepAlive=1
+BackspaceSendsBS=1
+BSisBS=1
+BoldAsFont=0
+WinPath=0
+ConfirmExit=1
+RightClickAction=1
+Scrollbar=1
+PromptType=2
+TrackTermActivity=1
+WarnBeforePasteMultipleLines=1
+LocalTerminal64Bits=0
+BellType=0
+TransTerm=0
+TransDetachedTabs=0
+X11SharedClipboard2=1
+X11OpenGL=0
+X11DisplayMode=0
+X11AccessControl2=0
+X11DisplayOffset=0
+X11ScreenNumber=1
+X11Keyboard=0
+X11DpiMode=stretched
+X11Version=MobaX
+HomeDir=<Temp directory>
+SlashDir=<Temp directory>
+DefaultHome=<Home>
+DefaultNewTab=<Home>
+ReplaceHomeTab=0
+NoTabClose=0
+AllowMultiInstances=0
+LastSession=GCP Scripting| #109#0%35.192.178.69%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+RightClickAssigned=1
+
+[Font]
+Font2=MobaFont
+FontIsBold2=0
+FontHeight2=14
+FontCharset2=0
+FontQuality2=3
+Charset2=UTF-8
+
+[Cursor]
+CursorType=0
+CursorBlinks=0
+
+[SSH]
+UseInternalMobAgent=1
+UseExternalPageant=1
+ForwardSSHAgentDep=1
+MobAgentKeys=C:\Users\Veeru\Downloads\BAWS.pem|C:\Users\Veeru\Downloads\id_rsa|
+SSHCompression=1
+X11Forwarding=1
+DisplaySSHBanner=1
+StrictHostKeyChecking=0
+StrippedDownAlgoList2=1
+GwUse2factor=0
+AutoStartSSHGUI=1
+SSHKeepAlive2=0
+EnableSFTP=1
+RemoteMonitoring=0
+ScpPreservesDates=0
+UseGSSAPI=1
+KrbDomain=
+GSSAPICustomLib=
+GSSAPILibNumber=0
+DefaultLoginName=
+SFTPShowDotFiles=1
+SFTPAsciiMode=0
+LastDownDir_vhirewadeyar@VEERUNEW=C:\Users\vhirewadeyar\Desktop
+
+[Display]
+DisableQuickConnect=0
+CustomDPI_1366_96=0
+IconsTheme=0
+RoundedTabs=1
+GraphicCache=0
+SidebarRight=0
+C10Checked=1
+C11Checked=1
+C12Checked=1
+C13Checked=0
+C14Checked=0
+VisibleTabNum=1
+VisibleTabClose=1
+MenuAndButtons=2
+BtnType2=2
+CustomDPI_1024_96=0
+
+[PopupConsole]
+Transparency=16
+Size=36
+Sizeable=0
+Position=3
+TryToOpenInExplorerFolder=1
+BackgroundInsteadOfClose=0
+
+[X11Extension]
+Composite=1
+DAMAGE=1
+RANDR=1
+XFIXES=1
+XTEST=1
+XINERAMA=1
+
+[WindowPos_VEERUNEW_1366_768]
+CompactMode=0
+MonitorCount=1
+Left=-8
+Top=-8
+Width=1382
+Height=744
+Maximized=1
+SidebarVisible=1
+SidebarWidth=240
+
+[Recently started]
+16=
+15=
+14=
+13=
+12=
+11=
+10=34.122.200.159 (Veeru)
+9=Jenkins
+8=GCP Tower
+7=Kub Master
+6=Kub Node1
+5=Kub Node2
+4=GCP Ansible
+3=GCP Jenkins
+2=GCP Nagios
+1=GCP Scripting
+
+[SSH_Hostkeys]
+ssh-ed25519@22:34.122.200.159=0x2f92acddbeafbe29628d9afeca2bfd8a4aa37f4f1711a46f2109d6c8a505cad8,0x74cb948f06cd773eebabf80a826442056376e5bb2ff2bb205126a1d2e1506aa9
+ssh-ed25519@22:34.123.215.47=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:34.123.54.94=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:35.184.122.61=0x2f92acddbeafbe29628d9afeca2bfd8a4aa37f4f1711a46f2109d6c8a505cad8,0x74cb948f06cd773eebabf80a826442056376e5bb2ff2bb205126a1d2e1506aa9
+ssh-ed25519@22:35.222.101.133=0x2f92acddbeafbe29628d9afeca2bfd8a4aa37f4f1711a46f2109d6c8a505cad8,0x74cb948f06cd773eebabf80a826442056376e5bb2ff2bb205126a1d2e1506aa9
+ssh-ed25519@22:34.70.68.91=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:34.121.12.138=0x791334a87372b54e8deb3dcb90886937f2a53575b527babd3ce4ae75e7097569,0x6582883becd29546f640c588535d3999fa47e1dd5ab4bae4e6eeb959eeea5fc3
+ssh-ed25519@22:104.198.162.87=0x40d875af68aa64c37eefc7a474288d419f7108ba6822af8a5ddcd4a7eae06496,0x5cc82739d75de1e37e0b4b14d77e07589b4cc2c7a98dacd69a81d7fc4a708eb1
+ssh-ed25519@22:104.155.145.124=0x4765bee10f14fb4a1b273655c6dd78fb4cd0c0e838ee36b62702d90f7c42355c,0x3b32dd59bf6128b44b4835e7608091a953434f56aecf482ba25b04c96237f500
+ssh-ed25519@22:104.197.240.149=0x693f882008dee362838f99573311258e8435cf9d4be538d9af5446bd3287ac90,0x68100dec6c17ac156b70e9172dc55940c7524f74f0b1e511849a1cdd20f4cff8
+ssh-ed25519@22:104.155.141.146=0x693f882008dee362838f99573311258e8435cf9d4be538d9af5446bd3287ac90,0x68100dec6c17ac156b70e9172dc55940c7524f74f0b1e511849a1cdd20f4cff8
+ssh-ed25519@22:34.123.161.178=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:104.197.230.72=0x40d875af68aa64c37eefc7a474288d419f7108ba6822af8a5ddcd4a7eae06496,0x5cc82739d75de1e37e0b4b14d77e07589b4cc2c7a98dacd69a81d7fc4a708eb1
+ssh-ed25519@22:34.122.138.194=0x791334a87372b54e8deb3dcb90886937f2a53575b527babd3ce4ae75e7097569,0x6582883becd29546f640c588535d3999fa47e1dd5ab4bae4e6eeb959eeea5fc3
+ssh-ed25519@22:34.121.172.121=0x4765bee10f14fb4a1b273655c6dd78fb4cd0c0e838ee36b62702d90f7c42355c,0x3b32dd59bf6128b44b4835e7608091a953434f56aecf482ba25b04c96237f500
+ssh-ed25519@22:35.193.23.7=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:34.70.78.123=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:34.123.127.56=0x791334a87372b54e8deb3dcb90886937f2a53575b527babd3ce4ae75e7097569,0x6582883becd29546f640c588535d3999fa47e1dd5ab4bae4e6eeb959eeea5fc3
+ssh-ed25519@22:104.197.101.57=0x40d875af68aa64c37eefc7a474288d419f7108ba6822af8a5ddcd4a7eae06496,0x5cc82739d75de1e37e0b4b14d77e07589b4cc2c7a98dacd69a81d7fc4a708eb1
+ssh-ed25519@22:34.123.245.184=0x4765bee10f14fb4a1b273655c6dd78fb4cd0c0e838ee36b62702d90f7c42355c,0x3b32dd59bf6128b44b4835e7608091a953434f56aecf482ba25b04c96237f500
+ssh-ed25519@22:34.66.66.237=0x791334a87372b54e8deb3dcb90886937f2a53575b527babd3ce4ae75e7097569,0x6582883becd29546f640c588535d3999fa47e1dd5ab4bae4e6eeb959eeea5fc3
+ssh-ed25519@22:34.121.171.163=0x40d875af68aa64c37eefc7a474288d419f7108ba6822af8a5ddcd4a7eae06496,0x5cc82739d75de1e37e0b4b14d77e07589b4cc2c7a98dacd69a81d7fc4a708eb1
+ssh-ed25519@22:35.192.173.114=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:35.223.171.207=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:35.226.79.220=0x791334a87372b54e8deb3dcb90886937f2a53575b527babd3ce4ae75e7097569,0x6582883becd29546f640c588535d3999fa47e1dd5ab4bae4e6eeb959eeea5fc3
+ssh-ed25519@22:34.70.76.200=0x40d875af68aa64c37eefc7a474288d419f7108ba6822af8a5ddcd4a7eae06496,0x5cc82739d75de1e37e0b4b14d77e07589b4cc2c7a98dacd69a81d7fc4a708eb1
+ssh-ed25519@22:34.68.9.89=0x4765bee10f14fb4a1b273655c6dd78fb4cd0c0e838ee36b62702d90f7c42355c,0x3b32dd59bf6128b44b4835e7608091a953434f56aecf482ba25b04c96237f500
+ssh-ed25519@22:35.226.64.227=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:35.239.150.248=0x2f92acddbeafbe29628d9afeca2bfd8a4aa37f4f1711a46f2109d6c8a505cad8,0x74cb948f06cd773eebabf80a826442056376e5bb2ff2bb205126a1d2e1506aa9
+ssh-ed25519@22:35.194.8.55=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:34.72.69.129=0x2f92acddbeafbe29628d9afeca2bfd8a4aa37f4f1711a46f2109d6c8a505cad8,0x74cb948f06cd773eebabf80a826442056376e5bb2ff2bb205126a1d2e1506aa9
+ssh-ed25519@22:34.121.240.67=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:35.238.15.182=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:34.121.154.251=0x2f52f8327c20f25fa38af504889d627ac6470664e7b28ab14102fd3213eecfec,0x6cd73b431c8c928c141e0b9794724ea97345efff5f86664afddf57ad44090cce
+ssh-ed25519@22:35.188.81.241=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:35.202.72.197=0x4d76170c2f81ff9eb3fda7f1a483a4854884212d922bf0c9b7e7b490c4114631,0x45ea0796405a39da9aa1e10c4febc9ea46b167b9b0904dc7bfba8814c994cd2
+ssh-ed25519@22:35.193.121.167=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+ssh-ed25519@22:35.188.50.92=0x5dd3554766e08039d8566636882ae2fd789be71314b5d43d54e332770f472db9,0x6214865fbc5873528f31c1ee605132e34dae4c95a800a7e644c06568b6ba9a64
+ssh-ed25519@22:35.192.178.69=0x3fb875f4908ba6ab93ad32f0c9cff28b8219ed0fff385f7059ceaa9bb72d2157,0x63369b85b889b2c71e1624d2c4fa995351e18b4d1967a1822dcc70c9e32d5966
+
+[WindowPos_VEERUNEW_1024_768_1360_768]
+CompactMode=0
+MonitorCount=2
+Left=-8
+Top=-8
+Width=1040
+Height=744
+Maximized=1
+SidebarVisible=1
+SidebarWidth=46
+
+[Bookmarks]
+SubRep=
+ImgNum=42
+GCP Ansible=#109#0%34.121.240.67%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+GCP Jenkins=#109#0%35.202.72.197%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+GCP Nagios=#109#0%35.188.50.92%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+GCP Scripting=#109#0%35.192.178.69%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+GCP Tower=#109#0%104.197.240.149%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+Kub Master=#109#0%35.226.79.220%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+Kub Node1=#109#0%34.70.76.200%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+Kub Node2=#109#0%34.68.9.89%22%Veeru%%-1%-1%%%22%%0%0%0%%%-1%0%0%0%%1080%%0%0%1#MobaFont%14%0%0%0%15%236,236,236%30,30,30%180,180,192%0%-1%0%%xterm%-1%-1%_Std_Colors_0_%80%24%0%1%-1%<none>%%0#0# #-1
+
+[LastInstanceSessions]
+0=GCP Scripting
+
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  ================================================================================
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  
+[17:03.44.062]  Detecting if a Master Password is required by INI file
+[17:03.44.062]  No Master Password required by INI file
+[17:03.44.062]  No master password detected. Identifying the need for a migration...
+[17:03.44.062]  Looking for previously stored passwords in INI file
+[17:03.44.062]  No stored password found in INI file
+[17:03.44.062]  NeedMigration:=false
+[17:03.44.062]  
+[17:03.44.062]  BEGIN CreerFstab
+[17:03.44.062]      CreerFstab: RootDirectory = C:/Users/VHIREW~1/AppData/Local/Temp/Mxt202
+[17:03.44.062]      CreerFstab: HomeDirectory = C:/Users/VHIREW~1/AppData/Local/Temp/Mxt202/tmp/HOME_V~1
+[17:03.44.064]      !!!! Exception EFCreateError: Cannot create file "C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\fstab". The process cannot access the file because it is being used by another process during SaveStringListToUnixFile(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\fstab)
+[17:03.44.064]  END CreerFstab
+[17:03.44.064]  BEGIN extraireFichiers1
+[17:03.44.064]      BEGIN CreerProfile
+[17:03.44.066]      END CreerProfile
+[17:03.44.066]      BEGIN CreerSshConfig
+[17:03.44.067]      END CreerSshConfig
+[17:03.44.067]      BEGIN CreerBaseProfile
+[17:03.44.067]          NEW PLUGIN: mobase
+[17:03.44.067]          BEGIN ProcessPlugin(mobase)
+[17:03.44.067]              BEGIN WaitForGetMobaseStream
+[17:03.44.067]              END WaitForGetMobaseStream
+[17:03.44.068]          END ProcessPlugin(mobase)
+[17:03.44.068]          NEW PLUGIN: C:\Users\VHIREW~1\DOWNLO~1\CygUtils.plugin
+[17:03.44.068]          BEGIN ProcessPlugin(C:\Users\VHIREW~1\DOWNLO~1\CygUtils.plugin)
+[17:03.44.117]              
+[17:03.44.117]              CygUtils version: 3.02
+[17:03.44.117]              
+[17:03.44.124]          END ProcessPlugin(C:\Users\VHIREW~1\DOWNLO~1\CygUtils.plugin)
+[17:03.44.128]          Request for file extraction: /bin/ssh-agent.exe
+[17:03.44.138]          File ssh-agent.exe extracted from CygUtils.plugin.
+[17:03.44.138]          Request for file extraction: /bin/cyggcc_s-1.dll
+[17:03.44.149]          File cyggcc_s-1.dll extracted from CygUtils.plugin.
+[17:03.44.149]          Request for file extraction: /bin/cyggcc_s-seh-1.dll
+[17:03.44.150]          BEGIN WaitForAllThreads
+[17:03.44.150]          END WaitForAllThreads
+[17:03.44.152]      END CreerBaseProfile
+[17:03.44.152]      BEGIN MkGroupFile
+[17:03.44.152]          BEGIN GetLocalGroups
+[17:03.44.185]          END GetLocalGroups
+[17:03.44.195]          SaveStringListToUnixFile(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\group)
+[17:03.44.196]          MkGroupFile OK
+[17:03.44.196]      END MkGroupFile
+[17:03.44.196]      BEGIN MkPasswdFile
+[17:03.44.196]          Current Domain: VeeruNew
+[17:03.44.196]          BEGIN Bui_GetWindowsUsersAccount
+[17:03.44.197]          END Bui_GetWindowsUsersAccount
+[17:03.44.201]          MkPasswdFile OK
+[17:03.44.201]      END MkPasswdFile
+[17:03.44.201]      BEGIN CreerNsswitch
+[17:03.44.214]      END CreerNsswitch
+[17:03.44.214]      Request for file extraction: /bin/scrdaemons
+[17:03.44.220]      File scrdaemons extracted from CygUtils.plugin.
+[17:03.44.220]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\tftp);
+[17:03.44.221]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\ftp);
+[17:03.44.223]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\http);
+[17:03.44.223]      !!!! Exception EFCreateError: Cannot create file "C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\http". The process cannot access the file because it is being used by another process during CreerLienSymb2
+[17:03.44.223]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\ssh);
+[17:03.44.224]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\telnet);
+[17:03.44.225]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\nfs);
+[17:03.44.227]      CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\scrdaemons, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\etc\init.d\vnc);
+[17:03.44.230]      Request for file extraction: /bin/cygtermd.exe
+[17:03.44.239]      File cygtermd.exe extracted from CygUtils.plugin.
+[17:03.44.240]      Request for file extraction: /bin/cygz.dll
+[17:03.44.253]      File cygz.dll extracted from CygUtils.plugin.
+[17:03.44.253]      Request for file extraction: /bin/cyggcc_s-1.dll
+[17:03.44.254]      File cyggcc_s-1.dll extracted from CygUtils.plugin.
+[17:03.44.254]      Request for file extraction: /bin/cygwin-console-helper.exe
+[17:03.44.265]      File cygwin-console-helper.exe extracted from CygUtils.plugin.
+[17:03.44.265]      Request for file extraction: /bin/ssh.exe
+[17:03.44.267]      File ssh.exe extracted from CygUtils.plugin.
+[17:03.44.267]      Request for file extraction: /etc/bash.bash_logout
+[17:03.44.268]      Request for file extraction: /etc/profile.d
+[17:03.44.269]      Request for file extraction: /etc/profile.d/*
+[17:03.44.269]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaListPorts, -listports);
+[17:03.44.270]      !!!! Exception EFCreateError: Cannot create file "C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaListPorts". The process cannot access the file because it is being used by another process during CreerRaccourciVersMobaXterm
+[17:03.44.270]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaPictureViewer, -picview);
+[17:03.44.270]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaTextEditor, -edit);
+[17:03.44.273]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaGitEditor, -gitedit);
+[17:03.44.273]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaCompareFiles, -compfiles);
+[17:03.44.273]      CreerRaccourciVersMobaXterm(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\MobaCompareFolders, -compfolders);
+[17:03.44.275]      Request for file extraction: /usr/share/terminfo/78/xterm
+[17:03.44.284]      File xterm extracted from CygUtils.plugin.
+[17:03.44.285]      Request for file extraction: /usr/share/terminfo/63/cygwin
+[17:03.44.290]      File cygwin extracted from CygUtils.plugin.
+[17:03.44.291]      Request for file extraction: /etc/bash_completion
+[17:03.44.291]      File bash_completion extracted from CygUtils.plugin.
+[17:03.44.292]      Request for file extraction: /usr/share/zoneinfo/posixrules
+[17:03.44.296]      File posixrules extracted successfully.
+[17:03.44.296]      Request for file extraction: /etc/inputrc
+[17:03.44.302]      File inputrc extracted from CygUtils.plugin.
+[17:03.44.302]  END extraireFichiers1
+[17:03.44.302]  CreateSymbolicLink(/proc/registry, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\registry);
+[17:03.44.302]  CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\bash.exe, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\bin\sh);
+[17:03.44.304]  CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\drives, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\cygdrive);
+[17:03.44.307]  CreateSymbolicLink(C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\drives, C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\mnt);
+[17:03.44.309]  !!!! Exception EFCreateError: Cannot create file "C:\Users\VHIREW~1\AppData\Local\Temp\Mxt202\mnt". The process cannot access the file because it is being used by another process during CreerLienSymb2
